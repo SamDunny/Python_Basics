@@ -27,8 +27,8 @@ pennies_rem = nickels_rem % penny_value
 pennies_tot = (nickels_rem - pennies_rem)/penny_value
 
 # displays results
-print("\n" + usr_inp + " cents in coins: " +
+print("\n" + usr_inp + " cents in coins: "    +
       "\nQuarters: " + str(int(quarters_tot)) +
-      "\nDimes: " + str(int(dimes_tot)) +
-      "\nNickels: " + str(int(nickels_tot)) +
-      "\nPennies: " + str(int(pennies_tot)))
+      "\nDimes: "    + str(int(dimes_tot))    +
+      "\nNickels: "  + str(int(nickels_tot))  +
+      "\nPennies: "  + str(int(pennies_tot)))
