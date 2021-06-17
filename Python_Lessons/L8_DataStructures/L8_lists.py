@@ -1,7 +1,7 @@
 # Python Lists:
-#   * Lists are 1 of 4 built-in data structures
+#   * Lists is the 1st of 4 built-in data structures
 #   * Lists are ordered (items have defined 'order' because of indexing)
-#   * Lists are changeable(you can add, remove, and change items in a list)
+#   * Lists are changeable (you can add, remove, and change items in a list)
 #   * Lists allow duplicate values (because theyre ordered)
 
 def main():
