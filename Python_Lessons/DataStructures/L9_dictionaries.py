@@ -48,6 +48,10 @@ def main():
     for i in range(10):
         fake_list[i] = "Entry #: " + str(i)
 
+    # can use forloop to iterate through dictionary by keys
+    # for key in fake_list:
+    #     print(key, fake_list[key])
+
     print("\nPsuedo-List: " + str(fake_list))
     # can print a dictionary by 'index'
     print("Psuedo-List at " + str(index_num) + ": " + str(fake_list[index_num]))
@@ -66,6 +70,13 @@ def main():
     temp = ages.get("Alice", -1)
     print(temp)
     print(ages)
+
+    # print out all methods for dictionaries
+    print("\nDictionary Methods:")
+    # creating default dictionary
+    x = dict()
+    for methods in dir(x):
+        print(methods)
 
     # run the histogram function example to observe dictionaries and .get()
     print("\nRunning the histogram example")
