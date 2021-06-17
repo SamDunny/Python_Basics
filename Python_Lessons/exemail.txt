@@ -1,9 +1,0 @@
-from:	Delta Kappa Epsilon <craig@dke.org> via gmail.mcsv.net 
-reply-to:	Delta Kappa Epsilon <craig@dke.org>
-to:	Samuel Dunny <samdunny.edu11@gmail.com>
-date:	Jun 15, 2021, 4:00 PM
-subject:	Join us LIVE to Celebrate DKE Founders Day!
-mailing list:	3a3a8f2e7de1187839b2c7a90mc list <3a3a8f2e7de1187839b2c7a90.335500.list-id.mcsv.net> Filter messages from this mailing list
-mailed-by:	mail17.wdc01.mcdlv.net
-signed-by:	gmail.mcsv.net
-security:	 Standard encryption (TLS)
