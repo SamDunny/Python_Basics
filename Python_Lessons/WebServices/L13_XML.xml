@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<! - - Example of an XML file - - >
+<person>
+    <name>Sam Dunny</name>
+    <phone type="intl">
+        +1 999 999 9999
+    </phone>
+    <email hide="yes"/>
+
+</person>
