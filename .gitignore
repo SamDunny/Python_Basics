@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Hidden files
-**/[Hh]idden
+**/[Hh]idden.*
 
 # Distribution / packaging
 .Python
