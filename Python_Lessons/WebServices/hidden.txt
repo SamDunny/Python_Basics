@@ -1,3 +1,0 @@
-[Google]
-
-googleapikey = AIzaSyDiNvCepYI4jT0HFvCk26_Iv5qGpdw_GxM
