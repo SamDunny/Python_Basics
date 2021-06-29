@@ -1,3 +1,3 @@
 [Google]
 
-googleapikey = AIzaSyCYQLNMxStrCe_eApG7hUiQlKpGhy3KLnI
+googleapikey = testkey
