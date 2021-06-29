@@ -1,21 +1,29 @@
 import urllib.error, urllib.parse, urllib.request
 import json
+import configparser
 
 def main():
     serviceURL = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
+    # retrieve hidden api key
+    config = configparser.RawConfigParser()
+    config.read(filenames = 'hidden.txt')
+    # print(config.sections())
+    apikey = config.get('Google','googleapikey')
+
     while True:
         address = input('Enter Location, or \'quit\' to Exit - ')
         if len(address) < 1 or address.lower() == 'quit': break
+        addP = urllib.parse.urlencode({'address' : address})
         
-        url = serviceURL + urllib.parse.urlencode({'address' : address})
-
+        # build request url from address and key components
+        url = serviceURL + addP + "&key=" + apikey
         print('Retrieving ', url)
         
         # open url
         add_rqst = urllib.request.urlopen(url)
 
-        # read all decoded (from UTF-8) dat into data
+        # read all decoded (from UTF-8) data into data
         data = add_rqst.read().decode()
         print('Retrieved ', len(data), ' characters')
 
